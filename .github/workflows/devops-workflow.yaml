@@ -1,0 +1,17 @@
+name: Devops Workflow Pedro
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build: 
+    runs-on: ubuntu-latest
+
+    steps:
+      - names: Checkout de Código
+        uses: actions/Checkout@v5
+
+      - names: Mostrar Mensagem
+        run: echo "Ola, Pedro Devops!"
