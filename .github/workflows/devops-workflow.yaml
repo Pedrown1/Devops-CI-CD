@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - names: Checkout de Código
+      - name: Checkout de Código
         uses: actions/Checkout@v5
 
-      - names: Mostrar Mensagem
+      - name: Mostrar Mensagem
         run: echo "Ola, Pedro Devops!"
